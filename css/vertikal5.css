@@ -1,5 +1,6 @@
 body {
-
+    background-color:#222;
+   color:ghostwhite;
 }
 a{
     color:#e74c3c;
@@ -14,6 +15,13 @@ a:hover{
     color:black;
 }
 
+h1 {
+    font-family: 'Teko', sans-serif;
+    color:ghostwhite;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
 
 /** FULLSCREEN OVERLAY NAV **/
 .overlay {
@@ -23,8 +31,8 @@ a:hover{
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: rgb(1,1,1);
-    background-color: rgba(1,1,1, 0.9);
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
     overflow-y: hidden;
     transition: 0.5s;
 }
@@ -40,8 +48,7 @@ a:hover{
 .overlay a {
     padding: 8px;
     text-decoration: none;
-    font-size: 2rem;
-    font-weight: 200;
+    font-size: 1.8rem;
     color: #818181;
     display: block;
     transition: 0.3s;
@@ -53,8 +60,8 @@ a:hover{
 
 .closebtn {
     position: absolute;
-    top: 10px;
-    right: 10px;
+    top: 10%;
+    right: 10%;
    font-size: 60px !important;
 }
 
@@ -71,25 +78,24 @@ a:hover{
 
 /** Jumbotron **/
 .jumbotron {
-    background: url("../img/r3d-header.jpg") top center no-repeat;
-   height:100vh;
+    background: url("../img/wicked-960-2.jpg") center center no-repeat;
+    height:100vh;
     width:100%;
-    background-size:auto;
+    background-size:cover;
     position:relative;
-
-
+    color: ghostwhite;
+    padding: 0;
+    margin: 0px;
 }
 @media screen and (min-width: 544px) {
     .jumbotron {
-        background: url("../img/r3d-header.jpg") top center no-repeat;
-        height: 100vh;
+        background: url("../img/wicked-960-2.jpg") center center no-repeat;
+        height:100vh;
         width:100%;
-        background-size: contain;
+        background-size:cover;
         position:relative;
-        color: gray;
-        margin-bottom: 80px;
-
-
+        color: ghostwhite;
+        padding: 0;
     }
 }
 /** Jumbotron **/
@@ -98,55 +104,40 @@ a:hover{
 
 /** Call To Action **/
 .call2action {
-
-
-
-
+    position: relative;
+    margin-top: 50vh;
 
 }
 
 @media screen and (min-width: 450px) {
 .call2action{
-    display: block;
-    margin-top: auto;
+    display:block;
+    float: right;
 
-    position: relative;
-    height: auto;
     }
-}
-
-.display-4 {
-   font-weight: 100;
-}
-.display-3 {
-    font-weight: 100;
-}
-.display-2 {
-    font-weight: 200;
-}
-h3 {
-    color: dimgray;
-    font-weight:200;
 }
 /** Call To Action **/
 
 .container-fluid{
     height: auto;
-
+    background-color:#000;
 
 }
-
 @media screen and (min-width: 450px) {
     .container-fluid{
         height: 100vh;
-
-
-
+        background-color:#000;
+        margin: 0px;
     }
 }
-.section:last-child{
-    margin-bottom: 80px;
+.content {
+
+    background: url("/img/MIKE-STONE-UVM-4.jpg")
+    center center no-repeat;
+    height:100vh;
+    width:100%;
+    background-size:cover;
+    position:relative;
+    color: ghostwhite;
 }
-.m-a-0 {
-    margin: 0 !important;
-}
+
