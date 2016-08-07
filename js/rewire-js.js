@@ -40,7 +40,7 @@ $(document).ready(function() {
 
         //Design
         controlArrows: true,
-        verticalCentered: false,
+        verticalCentered: true,
         /**sectionsColor : ['#111', '#222', '#111', '#000'], **/
         paddingTop: '0',
         paddingBottom: '10px',
