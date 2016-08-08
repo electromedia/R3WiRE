@@ -1,9 +1,9 @@
 body {
-    background-color:#222;
+    background-color:dodgerblue;
    color:ghostwhite;
 }
 a{
-    color:#e74c3c;
+    color:dimgray;
 }
 a:hover{
     color:ghostwhite;
@@ -120,19 +120,19 @@ h1 {
 
 .container-fluid{
     height: auto;
-    background-color:#000;
+
 
 }
 @media screen and (min-width: 450px) {
     .container-fluid{
         height: 100vh;
-        background-color:#000;
-        margin: 0px;
+
+
     }
 }
 .content {
 
-    background: url("/img/MIKE-STONE-UVM-4.jpg")
+    background-image: url(../img/6s-Plus-Horiz.jpg)
     center center no-repeat;
     height:100vh;
     width:100%;
@@ -140,4 +140,6 @@ h1 {
     position:relative;
     color: ghostwhite;
 }
-
+.m-a-0 {
+    margin: 0 !important;
+}
