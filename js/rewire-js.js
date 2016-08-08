@@ -7,7 +7,7 @@ $(document).ready(function() {
         lockAnchors: false,
         anchors:['firstPage', 'secondPage', 'thirdPage', 'fourthPage'],
         navigation: true,
-        navigationPosition: 'left',
+        navigationPosition: 'right',
         navigationTooltips: ['firstSlide', 'secondSlide'],
         showActiveTooltip: false,
         slidesNavigation: true,
