@@ -86,14 +86,11 @@ a:hover{
 }
 @media screen and (min-width: 544px) {
     .jumbotron {
-        background: url("../img/6s-Plus-Intro.jpg") top left no-repeat;
+        background: url("../img/6s-Plus-Intro2.jpg") top left no-repeat;
         height: 100vh;
         width:100%;
-        background-size: cover;
+        background-size:cover;
         position:fixed;
-        color: gray;
-
-
 
     }
 }
@@ -103,22 +100,24 @@ a:hover{
 
 /** Call To Action **/
 .call2action {
-
-
-
-
+    display:flex;
+    top: 50%;
+    padding: 20px;
+    position: relative;
+    height: 50vh;
+    width: 100%;
+    background-color: rgba(229, 44, 44, 0.8);
 
 }
 
 @media screen and (min-width: 450px) {
 .call2action{
-    display: block;
-    margin-top: auto;
-
-    position: relative;
+    top:0;
+    position:absolute;
     height: auto;
     }
 }
+/** Call To Action **/
 
 .display-4 {
    font-weight: 100;
@@ -130,10 +129,10 @@ a:hover{
     font-weight: 200;
 }
 h3 {
-    color: dimgray;
+    color:ghostwhite;
     font-weight:200;
 }
-/** Call To Action **/
+
 
 .container-fluid{
     height: auto;
